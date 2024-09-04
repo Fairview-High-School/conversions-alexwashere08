@@ -21,6 +21,7 @@ public class Conversions
         System.out.println("7. Miles to Kilometers");
         System.out.println("8. Kilometers to Miles");
         System.out.println("9. USD to Euro");
+        System.out.println("10. Euro to USD");
         
         int selection = keyboard.nextInt();
         keyboard.nextLine();  //go past the end-line and be ready for more input
