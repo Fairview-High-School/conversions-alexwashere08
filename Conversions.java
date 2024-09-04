@@ -49,8 +49,8 @@ public class Conversions
             System.out.println("Enter Feet: ");
             double feet = keyboard.nextDouble();
             keyboard.nextLine();
-            double miles = feet * 0.000189394;
-            System.out.println(feet + "ft is " + miles + "miles");
+            double meters = feet / 3.28084;
+            System.out.println(feet + "ft is " + meters + "meters");
         }
         
         if (selection == 4)
